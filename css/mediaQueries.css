@@ -1,0 +1,429 @@
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+
+.formTopContainer {
+	width: 400px;
+	height: 400px;
+}
+
+.textSectionLeftWrapper h1, .textSectionRightWrapper h1 {
+	font-size: 50px;
+}
+
+.textSectionLeftWrapper h2, .textSectionRightWrapper h2 {
+	font-size: 20px;
+}
+
+.vantagensTitle {
+	font-size: 20px;
+}
+
+.vantagensListItem span {
+	font-size: 14px;
+}
+
+.scrollContainer {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 1fr;
+	background-image: radial-gradient( circle farthest-corner at 10% 10%,  rgba(255,255,255,1) 0%, rgba(64,64,64,0.3) 90.2%), url("../img/bg1-1500.jpg");
+}
+
+
+
+
+
+.columns2Wrapper {
+	columns: 1;
+}
+
+.slide2Container {
+	background-position: 30% 50%;
+	background-size: 140% 100%;
+	background-image: url("../img/bg2a-1500.jpg");
+	height: 102vh;
+}
+
+.slide3Container {
+	background-position: 55% 50%;
+	background-size: cover;
+	background-image: url("../img/brasilia-1500.jpg");
+}
+
+
+.slide4Container {
+	background-position: 30% 40%;
+	background-size: cover;
+	background-image: url("../img/bg4-1500.jpg");
+}
+
+.vantagensTitleWrapper {
+	display: none;
+}
+
+footer {
+	background-position: 30% 40%;
+	background-size: cover;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto 80px;
+	height: 900px;
+	padding-top: 30px;
+	background-image: radial-gradient( circle farthest-corner at 0% 99.5%,  rgba(35,98,155,.7) 8.3%, rgba(35,182,153,.7) 99.6% ), url("../img/bg5-1500.jpg");
+}
+
+
+.listFooter p {
+	font-size: 18px;
+}
+
+
+.listFooterWrapper {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+}
+
+
+.footerTextsWrapper {
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+}
+
+
+.listFooterItens {
+	margin: 15px 0;
+}
+
+.listFooterItens p {
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+.footerList {
+	margin-bottom: 50px;
+}
+
+
+.footerTextsWrapper {
+	margin-top: 40px;
+}
+
+.footerTextsTitle {
+	font-size: 29px;
+}
+
+.footerTextsLead {
+	font-size: 20px;
+}
+
+.copyrightFooter {
+	font-size: 14px;
+	grid-column: 1 / -1;
+	grid-row: 3 / -1;
+}
+
+
+/*modal mailing template*/
+.modalTemplateMailings {
+	width: 95%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+
+.contatosTemplatesWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	height: auto;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+
+
+
+.scrollContainer {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 140px auto;
+	background-position: 60% 50%;
+	/*background-image: radial-gradient( circle farthest-corner at 10% 10%,  rgba(255,255,255,1) 0%, rgba(64,64,64,0.3) 90.2%), url("../img/bg1-1500.jpg");*/
+	background-attachment: scroll;
+	height: 100vh;
+
+}
+
+.vantagensSvg, #contatosSvg {
+	width: 50px;
+	height: 50px;
+}
+
+
+.columns2Wrapper {
+	columns: 1;
+}
+
+.slide2Container {
+	background-position: 30% 50%;
+	background-size: cover;
+	background-image: url("../img/bg2a-1500.jpg");
+	height: 780px;
+}
+
+.slide3Container {
+	background-position: 55% 50%;
+	background-size: cover;
+	background-image: url("../img/brasilia-1500.jpg");
+	height: 900px;
+}
+
+
+.slide4Container {
+	background-position: 30% 40%;
+	background-size: cover;
+	background-image: url("../img/bg4-1500.jpg");
+	height: 1000px;
+}
+
+footer {
+	background-position: 50% 40%;
+	background-size: cover;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto 80px;
+	height: 870px;
+	padding-top: 30px;
+	background-image: radial-gradient( circle farthest-corner at 0% 99.5%,  rgba(35,98,155,.7) 8.3%, rgba(35,182,153,.7) 99.6% ), url("../img/bg5-1500.jpg");
+	overflow: hidden;
+}
+
+.footerList {
+	margin-bottom: 50px;
+}
+
+.mouseScrollAnimation {
+	display: none;
+}
+
+
+.formTopContainer {
+	width: 85%;
+	height: 400px;
+	grid-column: 1 / -1;
+
+}
+
+.textSectionLeftWrapper h1, .textSectionRightWrapper h1 {
+	font-size: 30px;
+}
+
+.textSectionLeftWrapper h2, .textSectionRightWrapper h2 {
+	font-size: 16px;
+}
+
+.vantagensTitle {
+	font-size: 20px !important;
+	margin: 5px;
+}
+
+.vantagensListItem span {
+	font-size: 12px;
+}
+
+.pocketLead {
+	text-align: center;
+	font-size: 16px;
+	margin: 10px 0 20px 0;
+	line-height: 1.3;
+}
+
+
+.listFooter p {
+	font-size: 16px;
+}
+
+
+.commHash {
+	font-size: 20px;
+}
+
+
+.textSectionRightWrapper {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+	padding: 10px 10px 10px 20px;
+	margin-left: 30px;
+	border-radius: 20px 0 0 8px;
+}
+
+.vantagensWrapperRight {
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+	width: 90%;
+	padding: 10px;
+}
+
+
+.textSectionLeftWrapper {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+	padding: 10px;
+	margin-right: 30px;
+	border-radius: 0 20px 8px 0;
+}
+
+.vantagensWrapperLeft {
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+	width: 90%;
+	padding: 10px;
+
+}
+
+.pocketBtn {
+	grid-row: 3 / 4;
+	margin: 40px;
+	font-size: 20px;
+	margin: 20px;
+}
+
+
+.checkSvg {
+	display: block;
+	flex-basis: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+
+.listFooterWrapper {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	padding: 10px;
+	width: 90%;
+	overflow: hidden;
+}
+
+
+.footerTextsWrapper {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	margin-top: 0;
+	overflow: hidden;
+}
+
+
+.listFooterItens {
+	margin: 7px 0;
+}
+
+.listFooterItens p {
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+.footerTextsTitle {
+	font-size: 20px;
+	width: 80%;
+}
+
+.footerTextsLead {
+	font-size: 20px;
+	margin: 5px 0;
+}
+
+.footerList {
+	padding: 10px;
+	width: 90%;
+}
+
+.footerListItens {
+	margin: 3px 0;
+}
+
+.footerListItens p {
+	font-size: 16px;
+}
+
+.copyrightFooter {
+	font-size: 14px;
+	grid-column: 1 / -1;
+	grid-row: 3 / -1;
+
+}
+
+
+/*modal mailing template*/
+.modalTemplateMailings {
+	width: 95%;
+	height: 570px;
+}
+
+
+.contatosTemplatesWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.blockTypeText {
+	display: none;
+}
+
+.contatoTemplateBlock {
+	height: 210px;
+}
+
+/*modal registro*/
+.loginWrapper, .loginWrapperRecuperaSenha {
+	display: none;
+	grid-template-columns: 1fr;
+	width: 90%;
+	/*border: 1px solid silver;*/
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	max-width: 900px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 30px;
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
+	justify-self: center;
+	align-self: center;
+	z-index: 200;
+	position: absolute;
+}
+
+.adsSpace {
+	display: none;
+}
+
+.formDataWrapper {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	padding: 0;
+}
+
+.loginLink {
+	grid-column: 1 / 3;
+}
+
+
+
+
+
+.supportBtnWrapper {
+	transform: scale(0.8);
+	right: 20px;
+	bottom: 20px;
+}
+
+}
